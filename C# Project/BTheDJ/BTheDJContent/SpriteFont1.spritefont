@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+이 파일에는 글꼴의 XML 정보가 들어 있으며 XNA
+Framework Content Pipeline에서 사용됩니다. 설명에 따라 사용자 게임에서 사용하는 글꼴 모양을
+사용자 취향에 맞도록 변경하고 출력하는 데 사용할 수 있는 문자를
+변경하십시오.
+-->
+<XnaContent xmlns:Graphics="Microsoft.Xna.Framework.Content.Pipeline.Graphics">
+  <Asset Type="Graphics:FontDescription">
+
+    <!--
+    이 문자열을 수정해서 가져올 글꼴을 변경하십시오.
+    -->
+    <FontName>Gulim</FontName>
+
+    <!--
+    크기는 포인트 단위로 측정되는 부동 소수점 값입니다. 이 값을 수정해서
+    글꼴의 크기를 변경하십시오.
+    -->
+    <Size>11</Size>
+
+    <!--
+    간격은 픽셀 단위로 측정되는 부동 소수점 값입니다. 이 값을 수정해서
+    문자 사이의 간격을 조절하십시오.
+    -->
+    <Spacing>0</Spacing>
+
+    <!--
+    UseKerning은 글꼴의 레이아웃을 제어합니다. 이 값이 참(true)이라면 문자를 출력할 때 커닝 정보를 사용합니다.
+    
+    -->
+    <UseKerning>true</UseKerning>
+
+    <!--
+    Style은 글꼴의 스타일을 제어합니다. 올바른 항목은 "Regular", "Bold", "Italic",
+    및 "Bold, Italic"이며 대/소문자를 구분합니다.
+    -->
+    <Style>Regular</Style>
+
+    <!--
+    이 줄의 주석을 해제하고 해당 글꼴에 포함되지 않은 문자가 들어있는
+    텍스트를 출력하거나 측정하면 기본 문자로 대체합니다.
+    -->
+    <!-- <DefaultCharacter>*</DefaultCharacter> -->
+
+    <!--
+    CharacterRegions은 글꼴에서 제공하는 문자를 제어합니다. Start에서 End까지 모든
+    문자를 출력에 사용할 수 있습니다. 기본
+    범위는 32(ASCII 공백)에서부터 126('~')까지의 기본 라틴
+    문자 집합입니다. 문자는 Unicode 표준에 따라 정렬되었습니다.
+    문서에서 추가 정보를 확인할 수 있습니다.
+    -->
+    <!-- 
+    한글폰트도 사용할 수 있도록 캐릭터 범위를 지정해놓았음
+    -->
+    <CharacterRegions>
+      <CharacterRegion>
+        <Start>&#32;</Start>
+        <End>&#126;</End> 
+      </CharacterRegion>
+      <CharacterRegion>
+        <Start>&#46020;</Start>
+        <End>&#46047;</End>
+      </CharacterRegion>
+      <CharacterRegion>
+        <Start>&#47112;</Start>
+        <End>&#47139;</End>
+      </CharacterRegion>
+      <CharacterRegion>
+        <Start>&#48120;</Start>
+        <End>&#48147;</End>
+      </CharacterRegion>
+      <CharacterRegion>
+        <Start>&#54028;</Start>
+        <End>&#54055;</End>
+      </CharacterRegion>
+      <CharacterRegion>
+        <Start>&#49548;</Start>
+        <End>&#49575;</End>
+      </CharacterRegion>
+      <CharacterRegion>
+        <Start>&#46972;</Start>
+        <End>&#46999;</End>
+      </CharacterRegion>
+      <CharacterRegion>
+        <Start>&#49884;</Start>
+        <End>&#49911;</End>
+      </CharacterRegion>
+    </CharacterRegions>
+  </Asset>
+</XnaContent>

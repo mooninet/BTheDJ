@@ -1,0 +1,3 @@
+c:\users\administrator\documents\visual studio 2010\Projects\BTheDJ\BTheDJ\BTheDJContent\obj\x86\Debug\BTheDJContent.contentprojResolveAssemblyReference.cache
+C:\Users\208\Desktop\Documents\BTheDJ\BTheDJ\BTheDJContent\obj\x86\Debug\BTheDJContent.contentprojResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\Project BMS\BTheDJ\BTheDJ\BTheDJContent\obj\x86\Debug\BTheDJContent.contentprojResolveAssemblyReference.cache
